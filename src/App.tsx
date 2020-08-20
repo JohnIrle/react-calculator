@@ -8,7 +8,7 @@ function App() {
         <div className="vc wrapper">
             <div className="calculator">
                 <div id="display" className="border">
-                    {eq}
+                    <p className="result">{eq}</p>
                 </div>
                 <div id="clear" className="vc border">
                     C
